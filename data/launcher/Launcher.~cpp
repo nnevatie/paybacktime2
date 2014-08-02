@@ -1,0 +1,301 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <process.h>
+#pragma hdrstop
+
+#include "Launcher.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma link "ThdTimer"
+#pragma resource "*.dfm"
+TFLauncher *FLauncher;
+
+STARTUPINFO si;
+PROCESS_INFORMATION pi;
+
+int x, y, contrib;
+bool mouse = false;
+
+const int C = 73;
+const AnsiString CONTRIBUTE[C] = {
+"We would like to",
+"thank the following people",
+"for registering PaybackTime",
+"or for helping us out",
+"in the long process",
+"of developing the game:",
+"Eino Partanen",
+"Janne Patrikainen",
+"Sami Vikman",
+"Mika Muhonen",
+"Ari Soininen",
+"Mikko Hänninen",
+"Iikka Salmi",
+"Tatu Kilappa",
+"Sami Laakkonen",
+"Ismo Aulaskari",
+"Antti Pesu",
+"Jouko Andersson",
+"Tommi Muona",
+"Tuomas Palviainen",
+"Panu Koponen",
+"Joni Jokela",
+"Marko Aaltonen",
+"Marko Laitinen",
+"Jussi Timonen",
+"Seija Uusitalo",
+"Jaakko Toijala",
+"Saku Merenkivi",
+"Jaakko Lintula",
+"Jarkka ja Niko",
+"Kalle Åström",
+"Marko Saarainen",
+"Jontsu",
+"Kimmo Utriainen",
+"Arttu Äikäs",
+"Jukka Kivisaari",
+"Tapio Ilola",
+"Heikki Liukkonen",
+"Touko Rajala",
+"Antti Salonen",
+"Juhana Ketola",
+"Tuomas Nieminen",
+"Janne Vuorenmaa",
+"Jyri Lehtinen",
+"Panu Kinnari",
+"Petteri Kosonen",
+"Aki Erikkilä",
+"Oskar Sundkvist",
+"Teemu Paaso",
+"Jari Sinkkonen",
+"Ville Könönen",
+"Tomi Hurme",
+"Pyry-Valtteri Kujala",
+"Jonas Mustonen",
+"Timo Löppönen",
+"Henri Petteri Harju",
+"Akseli Eskolin",
+"Jukka Tuppurainen",
+"Juhani Salonen",
+"Kimmo Kyttä",
+"Timo Juhala",
+"Jan Andersson",
+"Jon McCluskey",
+"Juho Heinonen",
+"Pekka Sihvonen",
+"Martti Suikanen",
+"Jari-Pekka Manninen",
+"Henri Koski",
+"Tuukka Turto",
+"Samuli Mustonen",
+"Pate Blomqvist",
+"Juho Ratava",
+"Samuli Ilmonen"
+};
+
+//---------------------------------------------------------------------------
+__fastcall TFLauncher::TFLauncher(TComponent* Owner)
+        : TForm(Owner)
+{
+FLauncher->DoubleBuffered = true;
+timer->Interval = 30;
+}
+//---------------------------------------------------------------------------
+void __fastcall TFLauncher::LauncherPicMouseMove(TObject *Sender,
+      TShiftState Shift, int X, int Y)
+{
+if(mouse) {
+Left -= x - X;
+Top -= y - Y;
+}
+
+//Launch button
+if(X>544 && X<635 && Y>125 && Y<155) LaunchPic->Visible = true;
+else LaunchPic->Visible = false;
+
+//Setup button
+if(X>558 && X<635 && Y>154 && Y<188) SetupPic->Visible = true;
+else SetupPic->Visible = false;
+
+//Contributors button
+if(X>484 && X<635 && Y>214 && Y<240) ContribPic->Visible = true;
+else ContribPic->Visible = false;
+
+//Exit button
+if(X>580 && X<635 && Y>270 && Y<300) ExitPic->Visible = true;
+else ExitPic->Visible = false;
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TFLauncher::ExitPicClick(TObject *Sender)
+{
+Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TFLauncher::FormCreate(TObject *Sender)
+{
+
+//Check if the game should be installed first
+if(!FileExists("pt2.dat"))
+        {
+        //Invoke the small installer utility
+/*
+        //Process code
+        ZeroMemory( &si, sizeof(si) );
+        si.cb = sizeof(si);
+
+        // Start the child process.
+        if(!CreateProcess( NULL, // No module name (use command line).
+        "install.exe",    // Command line.
+        NULL,             // Process handle not inheritable.
+        NULL,             // Thread handle not inheritable.
+        FALSE,            // Set handle inheritance to FALSE.
+        0,                // No creation flags.
+        NULL,             // Use parent's environment block.
+        NULL,             // Use parent's starting directory.
+        &si,              // Pointer to STARTUPINFO structure.
+        &pi )             // Pointer to PROCESS_INFORMATION structure.
+        )
+        {
+        //Fast & Dirty error handling
+        Caption = "Fatal: Installer not found! ('install.exe' missing)";
+        Sleep(2);
+        Application->Terminate();
+        }
+
+
+        // Wait until child process exits.
+        WaitForSingleObject( pi.hProcess, INFINITE );
+
+        // Close process and thread handles.
+        CloseHandle( pi.hProcess );
+        CloseHandle( pi.hThread );
+*/
+        }
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFLauncher::SetupPicClick(TObject *Sender)
+{
+//Invoke Setup
+
+        //Process code
+        ZeroMemory( &si, sizeof(si) );
+        si.cb = sizeof(si);
+
+        // Start the child process.
+        if(!CreateProcess( NULL, // No module name (use command line).
+        "setup.exe",      // Command line.
+        NULL,             // Process handle not inheritable.
+        NULL,             // Thread handle not inheritable.
+        FALSE,            // Set handle inheritance to FALSE.
+        0,                // No creation flags.
+        NULL,             // Use parent's environment block.
+        NULL,             // Use parent's starting directory.
+        &si,              // Pointer to STARTUPINFO structure.
+        &pi )             // Pointer to PROCESS_INFORMATION structure.
+        )
+        {
+        //Fast & Dirty error handling
+        //Caption = "Fatal: Installer not found! ('install.exe' missing)";
+        Sleep(2);
+        Application->Terminate();
+        }
+
+
+        // Wait until child process exits.
+        WaitForSingleObject( pi.hProcess, INFINITE );
+
+        // Close process and thread handles.
+        CloseHandle( pi.hProcess );
+        CloseHandle( pi.hThread );
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFLauncher::LaunchPicClick(TObject *Sender)
+{
+//Invoke PT2
+
+        //Process code
+        ZeroMemory( &si, sizeof(si) );
+        si.cb = sizeof(si);
+
+        // Start the child process.
+        if(!CreateProcess( NULL, // No module name (use command line).
+        "pt2.exe",        // Command line.
+        NULL,             // Process handle not inheritable.
+        NULL,             // Thread handle not inheritable.
+        FALSE,            // Set handle inheritance to FALSE.
+        0,                // No creation flags.
+        NULL,             // Use parent's environment block.
+        NULL,             // Use parent's starting directory.
+        &si,              // Pointer to STARTUPINFO structure.
+        &pi )             // Pointer to PROCESS_INFORMATION structure.
+        )
+        {
+        //Fast & Dirty error handling
+        //Caption = "Fatal: Installer not found! ('install.exe' missing)";
+        Sleep(2);
+        Application->Terminate();
+        }
+
+
+        // Wait until child process exits.
+        WaitForSingleObject( pi.hProcess, INFINITE );
+
+        // Close process and thread handles.
+        CloseHandle( pi.hProcess );
+        CloseHandle( pi.hThread );
+}
+//---------------------------------------------------------------------------
+
+
+
+
+void __fastcall TFLauncher::LauncherPicMouseDown(TObject *Sender,
+      TMouseButton Button, TShiftState Shift, int X, int Y)
+{
+x = X;
+y = Y;
+mouse = true;        
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFLauncher::LauncherPicMouseUp(TObject *Sender,
+      TMouseButton Button, TShiftState Shift, int X, int Y)
+{
+mouse = false;        
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFLauncher::ContribPicClick(TObject *Sender)
+{
+//Show contributors
+if(!Label1->Visible) {
+contrib = 0;
+Label1->Font->Color = 0x00000000;
+Label1->Show();
+}
+else {
+Label1->Hide();
+}
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFLauncher::timerTimer(TObject *Sender)
+{
+if(Label1->Visible) {
+        if(contrib % 50 == 0)
+                Label1->Caption = CONTRIBUTE[contrib / 50];
+
+        Label1->Font->Color = abs(abs((contrib % 50) - 25) - 25) * 0x000060606;
+
+        contrib++;
+        if(contrib >= C * 50) contrib = 0;
+}
+
+}
+//---------------------------------------------------------------------------
+

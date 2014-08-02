@@ -1,0 +1,22 @@
+Functions called:
+ fflush (4 times)
+ delete (11 times)
+ free (7 times)
+ new (11 times)
+ SysReallocMem (6 times)
+ SysFreeMem (563 times)
+ SysGetMem (563 times)
+ lstrlenA (1 times)
+ lstrcpyA (4 times)
+ calloc (1 times)
+ strlen (71 times)
+ realloc (1 times)
+ strdup (1 times)
+ malloc (4 times)
+ memcpy (2 times)
+Resource types used:
+ object (11 allocs, 11 max)
+ memory block (570 allocs, 316 max)
+Modules used:
+ 00400000 04/24/2000 10:29:20 F:\Code\Projects\Payback_Free\Payback_Free.exe
+==========================================

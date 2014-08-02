@@ -1,0 +1,44 @@
+//---------------------------------------------------------------------------
+
+#ifndef LauncherH
+#define LauncherH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <Graphics.hpp>
+#include <Dialogs.hpp>
+#include "ThdTimer.h"
+//---------------------------------------------------------------------------
+class TFLauncher : public TForm
+{
+__published:	// IDE-managed Components
+        TImage *LauncherPic;
+        TImage *ExitPic;
+        TImage *ContribPic;
+        TImage *SetupPic;
+        TImage *LaunchPic;
+        TLabel *Label1;
+        TThreadedTimer *timer;
+        void __fastcall LauncherPicMouseMove(TObject *Sender,
+          TShiftState Shift, int X, int Y);
+        void __fastcall ExitPicClick(TObject *Sender);
+        void __fastcall FormCreate(TObject *Sender);
+        void __fastcall SetupPicClick(TObject *Sender);
+        void __fastcall LaunchPicClick(TObject *Sender);
+        void __fastcall LauncherPicMouseDown(TObject *Sender,
+          TMouseButton Button, TShiftState Shift, int X, int Y);
+        void __fastcall LauncherPicMouseUp(TObject *Sender,
+          TMouseButton Button, TShiftState Shift, int X, int Y);
+        void __fastcall ContribPicClick(TObject *Sender);
+        void __fastcall timerTimer(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+        __fastcall TFLauncher(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFLauncher *FLauncher;
+//---------------------------------------------------------------------------
+#endif

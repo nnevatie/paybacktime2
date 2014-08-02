@@ -1,0 +1,838 @@
+
+                     PAYBACKTIME TACTICS FILE v2.0
+                            by E. Partanen
+        
+        CONTENTS:
+
+1.0.    Foreword 
+
+2.0.    Creating a new team
+   2.1.    Generating warriors for a new team
+   2.2.    Team: Machines of Hate: Hiring warriors
+   2.3.    Machines of Hate: Strenghts and weaknesses
+   2.3.    Shopping time
+   2.4.    Machines of Hate goes shopping
+   2.5.    Specialized teams
+
+3.0.    Battle Options
+
+4.0.    The game itself
+   4.1.    Deployment
+   4.2.    Moving into contact
+   4.3.    When the action gets rough (the rough get going)
+   4.4.    Multiplayer games
+   4.5.    Computer controlled warriors (AI)
+   4.6.    Single player games
+   4.7.    The statistics screen
+   4.8.    After the battle
+   4.9.    Keys in the game (battle)
+
+5.0.    Experienced teams
+   5.1.    Spending skill points
+   5.2.    Hiring new warriors to an experienced group       
+   5.3.    Buying and selling equipment
+   5.4.    How to beat experienced teams
+
+6.0.    Using editors
+   6.1.    Map editor
+   6.2.    Mapping new areas
+   6.3.    Weapon and item editors
+   6.4.    Weapon and item sets
+
+7.0.    Final words
+
+8.0.    How to contact us
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.0.            FOREWORD
+
+
+        This document is not just a tactics file: It's also the manual for the 
+game and most of the options of the game Paybacktime 2 are covered herein. 
+This document includes hints and tips for a new player (and why not for 
+experienced as well) and since Paybacktime has always been poorly documented
+this file is meant to address the problem. 
+        This file is created by the betatesters of Paybacktime 1.02 & 1.2 &
+1.5 & 2 and Paybactime's authors. The contents are things which we have 
+learned during the two years when the Paybacktime was being developed.
+There are also some addresses, phone phone numbers and e-mails of the 
+betatesters and programmers if you happen to have questions. For registering 
+information, refer to an another file.
+
+
+2.0.            CREATING A NEW TEAM
+
+
+2.1.            HIRING WARRIORS FOR A NEW TEAM
+
+
+        When choosing whether to accept a warrior or not, there are six 
+attributes to look at: hit points (HP), movement points (MP) reactions (RE),
+firing accuracy (FA), throwing accuracy (TA) and melee accuracy (MA). How 
+these six attributes affect a warrior should be quite self-explanatory, but
+here are the explanations anyway.
+
+Hit Points:     How much damage your warrior can sustain before dying. 
+                Quite an important attribute especially if you are using 
+                weak armors.
+
+Movement Points:How quick your warrior is. However, this skill DOESN'T affect
+                the rate of fire; shooting and melee attacks always use up a
+                certain percentage of your MPs. Thus, more MPs => the 
+                more MPs it costs to shoot. One of the most important 
+                attributes, since slow warriors will be lagging behind and 
+                won't be able to react as quickly as the ones with lots of 
+                MPs.
+
+Reactions:      This is the percentage which is used to determine if your  
+                warrior notices an enemy which is moving in or into his  
+                field of vision. If the enemy is noticed, your warrior will 
+                fire providing he has MPs left and is in guarding mode.
+                Also used as the chance to locate and untrap trapped doors. 
+
+Firing Accuracy:(Warrior's FA + Weapons accuracy)/2 - range * 
+                accuracy factor => warriors chance to hit. This chance is 
+                further modified by the condition of the firing warrior, 
+                darkness and other factors. 
+
+Throwing Accuracy: Warrior's TA - range * constant => the chance to hit 
+                when throwing grenades or other items. 
+
+Melee Accuracy: As FA, but no modifiers for range.
+
+@@@ You should note that you don't lose anything if you choose a warrior, whether
+you need her/him or not. If you reject the warrior, you just lose 3000 Cr. 
+By accepting that piece of crap you're offered you don't lose (much) money. 
+And who knows: (s)he might find a gun somewhere and do something useful. 
+If (s)he's lucky. @@@
+
+2.2.            TEAM: MACHINES OF HATE
+
+
+NAME            HP      MP      RE      FA      TA      MA  
+-----------------------------------------------------------------
+Replica         49      51      45      64 *    56      46
+Flashpoint      51      51      53      51      65 *    40
+Christine       65 *    67 *    53      51      47      41
+Body Hammer     44      54      49      41      58      58
+H-K             42      55      54      59      45      63 *
+Fixer Laude     46      55      47      58      65 *    43
+
+(Skills marked with an asterisk (*) are quite impressive for a beginner
+team.)
+
+        This is an example team, and teams like this one are a common sight 
+on the battlefield, since most new teams tend to start with 5-8 warriors. 
+Let's look at each warrior individually and analyze the strengts and 
+weaknesses of each warrior and the whole team.
+
+REPLICA
+        All of his attributes are rather poor except FA, so it's quite
+evident what this man will be doing on the battlefield. Yes, you quessed it, 
+he'll get to be a sniper of some kind. 
+
+FLASHPOINT
+        The only thing he can do well is to throw things (like grenades), but 
+the other attributes are weak. No particular role for this man, i'm afraid.  
+
+CHRISTINE
+        Well, here we have a good warrior. She has lots of MPs, she's tough 
+and she even has average RE and FA. As the best warrior in the team, she'll
+probably have to handle the most dangerous tasks and might, if handled
+carefully, survive the first battle to become an excellent veteran. 
+
+BODY HAMMER
+        Slow, weak and can't shoot. He has good TA and MA though, and it's
+fun to have different warriors so he'll receive a melee weapon and some 
+grenades. You'll receive four times more skillpoints with melee attacks so 
+he might turn into a formidable warrior if he survives. Of course he could 
+pick up a weapon from a killed enemy warrior.
+
+H-K
+        If we forget the weak HPs of this warrior, he's good. Maybe he 
+shouldn't be as close to the enemy as others so a weapon with a good accuracy
+and accuracy factor will suit him best.
+
+FIXER LAUDE
+        He's very similar to H-K. Same things apply to this man as to H-K.
+
+
+MACHINES OF HATE: STRENGHTS AND WEAKNESSES
+        
+
+        Machines of Hate has no important weaknesses. All the warriors have 
+quite average attributes, some have more average than others. The warriors  
+should be able to fight any beginner team and give a quite good challenge. 
+The only thing that's missing is more warriors with MPs over 60, but you 
+can't get everything. 
+Strengths? The team's strength is that it has no weaknesses. 
+
+
+2.3.            SHOPPING TIME
+
+
+        Paybacktime 2.0 has "only" up to a hundred different weapons and up 
+to fifty different items (plus the three different flares), so you should 
+have quite a few weapons and items to choose from. On the other hand, 
+depending on how experienced your team is, you will only propably have about
+60 weapons and 25 items to choose from.
+        Weapons have 15 different attributes which are explained below.        
+        
+Weapon type:    Weapon's type is one of the following: Projectile weapon, 
+                energy weapon, melee weapon or explosive. The weapons type 
+                affects the attributes which are available to it. For 
+                example, melee weapons do not have a clip size. If a certain
+                attribute is available only to a certain weapon type, it is
+                mentioned along with the attribute on this document. 
+
+Weapon name:    Hmm... What could it be? I really don't know. It's a mystery 
+                really, since I've never understood it. But I know that THEY
+                are behind it and someday I will reveal the truth to the
+                whole world! Just wait and see... 
+
+Price:          The cost of the weapon.
+
+Accuracy %:     Accuracy percentage means how accurate the gun is initially, 
+                before adding modifiers for range etc. Remember: (Warriors 
+                FA + Weapons accuracy)/2 - range * Accuracy factor.
+
+Accuracy factor: How much the accuracy goes down with every square which is 
+                between the firer and the target. Look at the formula above.
+
+Damage:         Weapons damage looks like this: Random X + Y, where x is the
+                maximum amount of random damage (which means that the random
+                amount of damage will vary from 0 (zero) to X) and Y is a
+                constant (which is the amount of damage weapon will always 
+                make). The formula is clearer with brackets: (Random X) + Y. 
+
+Explosion factor: How many points the damage of the explosion will moderate 
+                (go down) for each square away from the point of explosion. 
+                For example, if a grenade's explosion factor is 5 and the
+                explosion does 30 damage, the damage will be 20 in the 
+                squares which are two squares away from the center of the 
+                explosion. The weapon doesn't do any damage to squares which 
+                are outside of it's radius. Not available to energy or melee 
+                weapons. 
+
+Explosion radius: The radius of the explosion caused by the weapon. Notice: 
+                radius, NOT diameter!!! Diameter = 2 * radius! Not available
+                to energy weapons.
+
+MPs cost %:     The amount of MPs it costs to fire a single shot with the 
+                weapon or use it to hit the enemy warrior if it's a melee
+                weapon. Note that this attribute depends on the amount of MPs
+                the firer has (percentages...) Aimed shots cost twice the 
+                amount of MPs and when firing an automatic weapon this is the 
+                cost of MPs the FIRST shot. This is also the cost of priming 
+                the explosive (if the weapon in case is an explosive).
+
+MPs cost auto %:How many MPs it cost to fire a shot on autofire. Note that 
+                the first shot fired still cost the same amount of MPs as 
+                firing a single shot. Only available to projectile weapons.  
+                
+Hands required: How many hands the weapon requires to use. Only up to two!
+
+Maximum burst:  When a energy weapon is fired, you must choose the number of 
+                burst you're going to fire and the damage inflicted is 
+                multiplied by the number of bursts fired. For example if 
+                you shoot with a weapon which does "random 5 + 10" damage and
+                you fired three bursts, the damage would be 3*(random 5 + 10)
+                = 3 * random 5 + 30. Note that the random amount of damage 
+                is determined only once, so if the random amount would be
+                three, the total damage would be 3 * 3 + 30 = 39. Each burst 
+                equals a single round in the clip. Only available to energy
+                weapons
+
+Clip type:      The name of the clip this weapon uses. Note that the clips 
+                with the same name aren't interchangeable. So that a clip 
+                "20mm DPU" which was bought for a "20mm anti-aircraft gun" 
+                won't fit in a "20mm TMG" which also uses clips named 
+                "20mm DPU". Not available to melee weapons and explosives.
+
+Clip size:      Clip size. 
+
+Clip price:     The price of the clip.  
+                
+        These fifteen attributes SHOULD produce quite a good mix of weapons
+for a team to choose from. But what kinds of weapons should you pick? That's
+the hardest thing.
+        First of all, look at your warriors and then think about your teams
+strenghts and weaknesses. Then look at the weapons (it's a good idea to use 
+a pen and paper to count the cost of your weapons and buy them after you're
+satisfied with your choices) and choose the suitable ones.  
+        I won't tell you which weapons are good and which arent, since how
+good a weapon is depends on you. If you think the weapon's useful then it's 
+good. But some words of advice: Don't put all your eggs in a single basket!
+I mean: Don't buy a single super-weapon and think you'll annihilate your 
+opponent with a single super-warrior. Every warrior's vulnerable, especially
+to grenades, so it's a good idea to give grenades to some warriors. 
+        Buy armors first. Or better: plan everything first on paper and then
+buy the stuff. Do not forget medikits, unless you like to lose a warrior per
+bullet which hits your warrior. Don't underestimate the power of flares  
+(they're cheap too). Weapons which can destroy walls can chew away cover 
+from enemy warriors. Explosives kill even the toughest warriors. 
+        Some words on armors: warriors should always be armored when sent 
+to the battlefield. Why? Since bleeding is rather deadly, it's better to keep 
+the bullets outside of your skin than inside. Even if the armor only 
+protects your chest it is better than nothing. Two hits will almost always  
+kill an unarmored warrior, but an armored warrior requires at least three 
+hits. There's a big difference, and that might be the difference between 
+life and death or victory and defeat. 
+        The thing which makes explosives so effective is that they inflict
+their damage to all six hit locations. So a single grenade can blow the 
+enemy's head right off, since head's quite a vulnerable hit location. If 
+the enemy's not wearing full body armor you can be quite sure that few arms
+or legs will be blown apart even if the warrior is not killed outright. 
+        There is only one way to find out if a weapon is good or not and 
+that's by trying it out! So get your team out there and find weapons which 
+suit you best. 
+
+2.4.            MACHINES OF HATE GOES SHOPPING
+
+
+        After the warriors have been generated, the team has 13200 Cr left. 
+This money will be used for armors, items and weapons. Let's see what each 
+warrior has:
+
+REPLICA 
+        The armor he's wearing is a neon urban armor and just that because
+you won't lose any MPs for wearing it. I have a golden rule with armors: 
+Never let an armor take your movement points to less than 50. Slow warriors
+are almost useless. 
+        As he was supposed to become a sniper of some kind, he's been given
+a Omen P-Sniper and three clips. Energy weapons need a lot of clips. I 
+also gave him a first aid pack (each warrior should have a medikit) and 
+a small flare. I wouldn't have bought flares but I had nothing else to spend
+my money on so flares were the best choice. 
+
+FLASHPOINT
+        Well, like most warriors in this team he's wearing Neon Urban Armor
+and he has a medium flare and a first aid pack.
+        The weapon he's carrying (.44 Renegade) I chose because the name was
+too tempting to miss. He also has five clips for his pistol, because I had
+a 1000 Cr to spare and didn't want to spend it all on flares.
+
+CHRISTINE
+        She's wearing a CA-1 Kevlar unlike the other warriors which have 
+Neo Urban Armors. This is because she has about 10 more MPs than the other 
+warriors and since they're supposed to move in a group she won't need them. 
+CA-1 also gives some extra protection which is good. 
+        The best warriors use the best weapons and she has a Synapse SMG, 
+which is slightly inaccurate but still a efficient weapon. It's good on 
+overwatch (guarding) too. Since the clip's as large as it is, she has only 
+a single spare clip. I also gave her a first aid pack and a medium flare.
+
+BODY HAMMER
+        Melee weapons for this man, so he has an Omen Katana and since he
+needs something which will kill a warrior from range I gave him a Fragment 
+Grenade. Other stuff include a small flare, first aid pack and a Neon Urban
+Armor.
+
+H-K
+        First the normal three: First Aid Pack, medium flare and Neon Urban 
+Armor. He received a Omen Pulse Rifle which is accurate and effective weapon 
+even from long ranges. As the energy weapons tend to empty their clips 
+quickly I gave him three spare clips. 
+
+FIXER LAUDE
+        As above. 'nuff said?
+
+
+2.5.            SPECIALIZED TEAMS
+
+
+        Machines of hate is a common beginner team, becayse it has about 7 
+warriors which are armed and armored and some warriors carry grenades. It's
+a common sight on the battlefield, where the team doesn't stand out from 
+the great gray sea of beginner teams. There are other types of beginner teams
+and by trying different types and inventing new you will find the type of 
+team which suits your style of playing. Here are some ideas which have been 
+used in the past two years when PaybackTimes 1.02 & 1.2 & 1.5 & 2 were being
+playtested.
+        CLOSE ASSAULT TEAMS: These are teams with only melee weapons or 
+with melee weapons and weapons which are next to useless from all ranges
+except point blank. Of course this includes grenades.  
+        There are some problems with these kinds of teams: They don't win 
+without firearms and if each warrior has a melee weapon and a gun you don't
+have enough credits to buy armor and so on. It might work with melee weapons
+and grenades, but this type of team needs luck to win. But you get four times
+more experience with melee weapons than with firearms...
+        HUMAN BOMB FANATICS: This means teams armed only with grenades and 
+nothing else. There's no need to buy armors for anybody, use the money 
+instead on more warriors and grenades. There's no point in giving a warrior
+more than two grenades, one is enough. That way you don't lose so much when 
+your warrior dies. Believe me, there's going to be a lot of fatalities, and
+most of them will be yours. But you always should have a few men to spare.
+
+
+3.0.            BATTLE OPTIONS
+
+
+        Before you can enter the game itself, there are some options to set.
+These are "Enemy Reports","Ambient Light" and "Game Mode" (which means the 
+three options which are named as "Classic", "Realistic" and "Extreme-reality". 
+How these all affect the game itself are covered briefly herein:
+
+Enemy reports:  When a warrior of yours sights an enemy warrior, it would be 
+                logical that he would know that even as your turn starts. 
+                Usually the warriors "forget" what has happened during 
+                an opponents turn, but when enemy repors is enabled, the 
+                warrior will tell you at the beginning of your turn if he 
+                has seen enemy warriors. You will receive the location where
+                the warrior was first sighted and the location where the  
+                warrior was last seen. Your warrior will also inform you of
+                the heading of the enemy warrior. 
+                                                             
+Ambient light:  This is the amount of light on the battlefield initially 
+                (before the effect of the map's lights are applied). Ambient 
+                light has values from 0 to 10, and if the ambient light has
+                the value of 0 then there is no light on the battlefield. 
+                On the value of 10 there are no need for lights, the whole   
+                battlefield's bathing in sunlight. 
+
+Classic:        Classic game mode means that you see the whole map all the 
+                time and if a door is opened on the other side of the 
+                battlefield you can see it on the map. 
+
+Realistic:      On realistic mode map will only show you the areas which you 
+                already have seen, so you will be mapping areas as you go. 
+               
+Extreme-reality: With extreme-reality mode the only things you see are the 
+                areas which your warriors currently see and it's up to you
+                to remember where everything is. 
+
+
+4.0.            THE GAME ITSELF
+
+
+4.1.            DEPLOYMENT
+
+
+        Before you deploy your warriors, you should have a some kind of plan 
+which you are going to follow to victory. If you don't, then you should make
+one right away since there is no way you can beat you opponents just by 
+reacting to their actions unless your opponents are doing the same thing.
+        Think about your team, it's strengts and weaknesses and make you 
+battle plan according to those. After that just deploy and you're ready to 
+go and conquer. 
+        Some advice thought: try to avoid your warriors from getting stuck 
+at doors or narrow corridors and try to deploy less warriors in such areas. 
+Make sure you know what your warriors are capable of doing and what you 
+are planning to do with them. 
+        If you have played the earlier versions of the game Paybacktime, you 
+will notice that the warriors aren't anymore deployed automatically. Now you
+have specific deployment areas in which to deploy your warriors. There are 
+at least 20 squares worth of area for each team to deploy in. 
+
+4.2.            MOVING INTO CONTACT
+
+
+        After you have deployed, you should move your warriors according to 
+your plan. Do not under any circumstances move your warriors too far away 
+from the rest of the group or they will just be surrounded and killed. Have 
+your warriors cover each other and if some of your warriors are faster than 
+others have them move at the same pace as the slower warriors move. Otherwise
+your group will just fall apart and the warriors will have to fight on their
+own. This doesn't apply to your "expendable" warriors thought, but don't move
+recklessly. Even those expendables might be the small thing which make the  
+big difference between victory and defeat. 
+
+
+4.3.            WHEN THE ACTION GETS ROUGH (THE ROUGH GET GOING)
+
+ 
+        Even when the first warriors go down, try to keep your group together.  
+In doing so you can react to surprises more efficently and you'll be able to 
+cover your warriors efficently. Be ready for surprises and stick to you plan. 
+If you change your plan in the middle of the game, you'll just start to 
+react to your opponent's actions and you'll be fighting the battle on their 
+terms. The uncertain will just get horribly killed. 
+        Don't be afraid to fall back and regroup. If things get too hard, 
+just retreat and come back after a while. If your warriors have to fight 
+without anyone covering them they will just be surrounded and shot in the
+back. 
+        When you attack, don't be afraid to sacrifice your warriors if the
+situation requires it. On the other hand, don't sacrifice them unless you 
+are sure it is necessary. Don't send warriors to certain death, like charging
+into a house when you know there are enemy warriors inside. Throw grenades  
+inside and after that, go in. 
+        There's also something which you should remember: When moving, try        
+to place your warriors so that from whatever direction the enemy is coming 
+from, the enemy warrior can only see one of your warriors. Keep the other  
+warriors nearby, just behind the next door or somewhere hidden so they can 
+rescue the warrior your opponent saw and attacked or at least kill the 
+attacker. This will reduce your losses a lot or at least you should  
+be able to kill a warrior per warrior you lose. 
+        In the end there's only one thing which you should remember: Follow 
+your plan!
+   
+    
+4.4.            MULTIPLAYER GAMES
+
+
+        Multiplayer game is almost like a normal two-player game, except that
+there are more opponents to kill than usually so take some extra ammunition 
+with you. 
+        There are some differences thought. You should remember that after 
+your turn up to three opponents have a change to move and you might find 
+yourself in a situation where most of your group has been slaughtered in a 
+single turn. Just be twice as careful and twice as alert and you'll do fine.
+
+
+4.5.            COMPUTER CONTROLLED WARRIORS (AI)
+
+
+Computer controlled warriors usually outnumber you, have better weapons, 
+armor and even the warriors have better statistics than yours but there's a
+single thing that humans have which you must use to your advantage: a brain.
+        There are four difficulty levels for computer warriors and how hard 
+each one of those are to beat is explained briefly below:
+
+Ridiculous:     The warriors are slighty worse than those of an inexperienced
+                team.
+
+Easy:           The warriors are about the same as in a team which has won a 
+                single game. 
+
+Average:        These are at least as good and well equipped as the best 
+                human controlled teams can be (about 4 victories)
+
+Challenging:    Well, let's say it's challenging. Or should I say: Daemons 
+                from the darkest pits of a place which makes hell look like
+                a children's playground.
+
+        Don't think that ridiculous computer team is easy to win: You couldn't
+be further away from the truth. Easy teams are quite hard to beat with a 
+beginner team. Challenging has never been won fairly (with inexperienced team), 
+although we have tried. 
+        Do not try to fight the computer face to face: try to get it to do 
+what you want it to do. Lure several of it's warriors into a room and then 
+throw grenades. Trap the doors which you thing it will be using. Don't leave 
+your warriors close to a location where you know an uninjured enemy warrior 
+is and try to keep out of sight. These are only few tricks which work, but 
+you should always remember that even the touhgest warriors can be killed with 
+grenades - eventually. 
+
+
+4.6.            SINGLE PLAYER GAMES
+
+
+        Paybacktime was originally created for two human players and AI is 
+only an additional feature. Playing against the computer is nothing when 
+compared to playing against a human player. The computer is a lot easier to 
+beat and it should be considered unfair to play against a team which has 
+only fought against computer opponents with a team which has had a hard time
+fighting against other human opponents. 
+        PAYBACKTIME WAS ORIGINALLY CREATED FOR HUMAN VS. HUMAN BATTLES. WE
+(THE AUTHORS AND BETATESTERS) CONSIDER COMPUTER OPPONENTS JUST AS RANDOM 
+ENCOUNTERS IN MULTIPLAYER GAMES OR TESTDUMMIES FOR NEW MAPS OR WEAPON AND 
+ARMOR SETS.     
+
+
+4.7.            THE STATISTICS SCREEN   
+
+
+        After the battle's over, you'll see a screen filled with statistics
+of the game. There are 12 things which are shown on the statistics screen 
+which are explained below. It should be said that the bars are relative to
+the highest amount in the last battle, so if the red team had 12 casualities
+and the other teams less than 10, then the red bar under the "corpses" 
+subsection would be as long as possible and the other teams bars would be
+relative to that.
+
+Survivors:      How many warriors from each team survived.
+
+Corpses:        The amount of dead warriors in each team.
+
+Shots fired:    Shots fired with energy or projectile weapons.
+
+Accuracy:       The average accuracy with melee and shooting attacks.
+
+Damage caused:  How many points of damage was dealt by each team.
+
+Damage penetrated: The amount of damage which the each team dealt and 
+                was not stopped by armor.
+
+HPs bleeded:    How many HPs worth the teams warriors bled. Yes, we know it
+                should be "HPs bled", but so what. We don't care. 
+
+MPs used:       MPs used by each team.  
+
+Items found:    Items found in drawers by each team. 
+
+Explosives primed: How many explosives were primed by each team. 
+
+EXP gained:     The amount of skillpoints gained.
+
+Money gained:   Money gained by each team. 
+
+
+4.8.            AFTER THE BATTLE
+
+
+        After the battle is over the first thing you should do is to chech 
+your group from the group editor. Heal the warriors and spend the skillpoints
+they have earned. You will also notice that you have received some money. 
+The winning team always nets an amount of 40000 Cr and the loser gets nothing.
+You also receive money for killing enemy warriors, 10000 Cr each, and all the
+equipment left on the battlefield is collected by the winner. 
+        The losing team(s) are usually left with about 30000-70000 Cr which 
+is by no means enough to build a new team from scratch although you can try. 
+It's quite common that beginner teams are disbanded (deleted) after the 
+first battle if they lose. 
+        The amount of money and equipment in multiplayer games is slightly 
+different. The equipment is randomly dealt to all winners and each team 
+receives the same amount of equipment, but the equipment is not necessarily 
+worth even quite the same amount of credits. 
+
+
+4.9.            KEYS IN THE GAME (BATTLE)
+
+Here's a complete list of the keys used while in the battle with short 
+descriptions:
+
+F1:             Helpscreen, with the same key describtions as in here. 
+
+F2:             Enable/disable fast game mode.
+
+Backspace:      Select an option from the menu on the left.
+
+Page up & page down: Change menu option. 
+
+Q:              Quit, F10 confirms.               
+
+Esc:            End turn, Y confirms.
+
+N:              Next warrior.
+
+Arrows:         Move warrior.
+
+Enter (return): Shoot.
+
+Space:          Open/close door.
+
+T:              Throw an item / trap a door (a grenade must be held in hand).
+
+P:              Pick up / examine (a drawer or a door for items/traps)
+
+A:              Give first aid (a medikit must be carried in hand).
+
+H:              Show health screen.
+
+I:              Inventory.
+
+S:              Show statistics of the warrior.
+
+G:              Guarding mode on/off
+
+V:              View map.
+
+L:              Dummy light enabled/disabled (the dummy light doesn't affect
+                any line of sights or shooting. It's just there to help you 
+                to find your way in total darkness.)
+
+F:              Freescroll mode.
+
+W:              Show weapon(s) currently in hand(s).
+
+R:              Music on/off.
+
+E:              Sound effects enabled/disabled.
+
+M:              Attack with a melee weapon
+
+
+6.0.            EXPERIENCED TEAMS
+
+
+5.1.            SPENDING SKILLPOINTS
+
+
+        A warrior gains 300-600 skillpoints for just surviving the battle and
+additional skillpoints for each hit with any weapon:
+
+        Grenades / explosive projectiles = 1 pts.
+                   Ordinary projectiles  = 2 pts.
+                   Melee weapons         = 4 pts.
+
+        Usually a surviving warrior has gained from 400 to 800 skillpoints
+and these can be used to heighten the attributes of a warrior. Different
+attributes cost a different amount of skillpoints to increase and the costs
+are defined below:
+
+HP:     Current HP / 2
+MP:     Current MP / 2
+RE:     Current RE * 3
+FA:     Current FA * 2
+TA:     Current TA
+MA:     Current MA
+
+        How the skillpoints should be spent is up to you. Usually it's a good
+idea to spend skillpoints to increase the warriors weak attributes to an 
+average level. Especially HP and MP are important, the latter more so. 
+
+
+5.2.            HIRING NEW WARRIORS TO AN EXPERIENCED GROUP
+
+
+        After your group has won a few battles, there's no need to hire 
+warriors with bad attributes. Your team's the best, so you can afford to hire
+only the best warriors. 
+
+
+5.3.            BUYING AND SELLING EQUIPMENT  
+
+
+        After winning a single battle, your team has gained some money but
+most of all, lots of weapons and armor. It's a good idea to use the equipment
+you've gained instead of selling it all and buying new, since by selling stuff
+you only get a half of the items cost in return.  
+        A team which has won two battles can survive even if it loses a single
+game if you've saved some money and equipment instead of selling it all. Use 
+what you get and buy the things you need (esp. better armors) but always 
+leave something in storage in case you lose. 
+
+
+5.4.            HOW TO BEAT EXPERIENCED TEAMS
+
+
+        Even a team which has won a single battle is at least as dangerous as
+two beginner teams combined. You can quess that it's quite hard to beat with 
+an inexperienced team and you're right. But there are some things you can do.
+        TEAM UP AGAINS THE EXPERIENCED TEAM. Three beginner teams should have
+a chance agains a team which has won twice. Against teams which have won 
+four or five times use at least two other less experienced teams and a single
+beginner team. Multiplayer games are fun. And of course you could use a 
+computer team instead of one of the teams fighting against the experienced 
+team.
+        DON'T PLAY FAIR. Create a team of human bombs. This tactic works
+a bit better agains experienced teams than other beginner teams but it's 
+boring and you tend to lose anyway. 
+        OTHER EXPERIENCED TEAMS. The simplest way to beat experieced team is 
+to use an another as experienced team as your opponent has. These games tend
+to get large and long, so take two other beginner teams along, for example, 
+one on each side. 
+
+
+6.0.            USING EDITORS
+
+
+6.1.            MAP EDITOR
+
+
+        The map editor is created to allow players to create their own maps 
+to battle in. How the editor works and the keys used is briefly described
+below.
+        When building new maps you will need at least twenty (20) deployment
+areas for each team. In addition to that there's an another limitation:
+the map must be from 35 to 100 squares wide and from 25 to 100 squares high. 
+        There are also three boxes on the left; they are marked with a T, D 
+and L (Terrain, Deployment, Light).
+
+F1      The size of the light changes (you can see it in the light box).
+        Yellow lights can be shot and broken but red ones can't. 
+
+F2      Put the light you've chosen with F1 to the square the pointer is in. 
+        Note that you can only put lights in squares which don't already have
+        a terrain piece which blocks line of sight. So lights can only be put
+        in squares with a floor piece or a piece of grass. 
+
+F3      Decrease the amount of ambient light.
+
+F4      Increase the amount of ambient light. Note that this doesn't affect
+        the amount of ambient light you choose when you start a new battle.
+        This feature only allows you to have a look at what the battlefield
+        looks like in different lightning.
+
+F5      Change the height and width of the map. 
+
+F6      Deployment areas visible/invisible.
+
+F7      Toggle lights on/off.
+
+Space   Toggle 3D mode on/off.
+
+R,B,G,Y Mark a square as a deployment area. R for red, B for blue, G for  
+        green and Y for yellow. 
+
+S       Save the map.
+
+D       Deployment mode. On the left you see the deployment box in which 
+        stands a letter "n". By pressing the "D" key it will turn into a "r". 
+        Now when you run the cursor over a deployment area it will be removed. 
+        By pressing "D" again the each square you run over with the cursor 
+        will be markedas a deployment area of the team whose colour is 
+        currently selected (you will see it in the box). 
+
+L       Load a map
+
+C       Continuous mode. When enabled, each square you run over with the 
+        cursor will be turned into a square with the map piece you have 
+        currently selected.
+
+Esc     Quit
+
+Enter   Lay down a currently selected map piece (you'll see it in the terrain 
+        box).
+
+Delete  Flood the entire map with the map piece currently chosen. 
+
+
+6.2.            MAPPING NEW AREAS
+
+
+        Some advice to a new map builder: Do not try to make too big maps. 
+Maps which are about 50 high and wide are great for a two or three player 
+game. Don't fill the rooms with all kinds of neat stuff. There should be 
+little enough furniture that the game won't turn into a search of an enemy 
+in a furniture jungle. The warriors need some space. 
+        And as fun as it seems to fill the map with barrels and things that
+go "BOOOM!", don't !!! Nothing's more stupid than end the game on the first 
+turn as 99% of the map suddently disappears with 100% of the warriors in 
+all teams. 
+
+
+6.3.            WEAPON AND ITEM EDITORS
+
+
+        When the map editor is meant for maps these two different editors
+are meant for weapons and items (& armors) respectively. There aren't many
+keys in both of them; all you need are the cursor keys (the arrows) and
+enter (return). Note that in all editors the "S" key is the save button!!!
+
+
+6.4.            WEAPON AND ITEM SETS
+
+        Please refer to the PT2DATAS.TXT file.
+
+7.0.            FINAL WORDS
+
+        What is there left to say? I could write here something very nice and
+earth shaking, but why should I? After all the best way to learn a game is
+to play it. So what are ya waitin' for? Go on and beat the hell out of 'em.
+
+                                                               - N. Nevatie
+
+8.0.            HOW TO CONTACT US
+
+
+	You can reach the developers either by email or phone:
+
+
+           		Niko Nevatie		Kari Luojus
+
+	   email: 	niko@nees.nu		kluojus@cc.hut.fi 	
+           phone: 	358503838621		358405058417
+
+

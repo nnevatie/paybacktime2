@@ -1,0 +1,93 @@
+                   *********  PAYBACKTIME V2.1 **********
+
+      From now on PaybackTime is FREEWARE.
+      Use it on your own risk, the authors deny all responsibility concerning
+      any possible damage or loss caused by the game.
+
+		This is the _last_ PaybackTime. Good Riddance Edition.
+
+
+                              Development (C) 1996-2001 N. Nevatie & K. Luojus
+                                       niko@nees.nu, kluojus@cc.hut.fi
+
+  ************************************************************************
+
+- 3 gamemodes.
+        + Classic: The one used in the ancient PT.
+        + Realistic: Once you have seen the place, it is always remembered. 
+        + Extreme-Reality: 'What you'll see is all you'll get'.
+                           (Better know the map beforehand)
+
+- Lighting is now supported.
+        + Adjustable ambient light 
+        + Lighting affects shooting, visibility and atmosphere.
+        + It's fun to create maps with bizarre lighting.
+        + Lights can be shot at.
+        + Flares can be bought in the group editor.
+
+- Computer players added         
+        + 4 skill levels:
+                Ridiculous  - For absolute beginners
+                Easy        - The name says everything
+                Average     - For average people    
+                Challenging - The choice of a true warrior
+        + Here in our labs, only CHALLENGING is used, though.
+
+- Up to 4 players can now get into the action simultaneously. 
+        + We have also created a join-option for those who want to get fair
+          in 3 vs. 1 battles... (Human-players can join cpu-players too)
+
+- The limit of 10 warriors/team in battle has been removed.
+        + All 20 warriors of the team can now join the battle.
+
+- Deployment areas have been implemented.
+        + No more fixed places for each warrior.
+        + Allows much more complex tactical manouvers.
+
+- Warriors will now report if any enemy warriors were seen during the last
+  defensive part of the turn.
+        + The feature can be disabled. 
+          (This is for you who liked the old PT-system better.)
+
+- Critical and severe hits have been implemented.
+        + 50-100% more damage can be done.
+        + These are very rare, especially severe hits.
+
+- Melee backstabbing has been implemented.
+        + The attacker gains bonuses when attacking melee from behind.
+
+- Stuff can be in found drawers.
+        + The possibility can be adjusted in the mapeditor.
+
+- Trapping doors 
+        + This sport is for you who prefer defensive methods instead 
+          of brutal, offensive tactics.
+        + Traps can also be disarmed (with the possibility of failure, 
+          of course.)
+
+- Game-system algorithms have been rewritten and optimized. 
+        + Very fast bi-directional line-of-sight routines guarantee 
+          LOS for both the aimer and the target.
+        + Interpolative lightblender is used to create smoother sceneries.
+        + A major bugger found in the used compiler directives,
+          the hardware FPU-calculation was disabled. As it is currently 
+          enabled, the heavy explosives don't take a year to compute.
+
+- Graphics have been improved.
+        + Lots of graphics have been re-drawn as they were out of date.
+          (The warriors, for instance).
+
+- Helpscreen
+        + For beginners.
+
+- Music in the game
+        + To add some audio-pleasure.
+
+- Endstatistics
+        + Who did and what. 
+        + More glory for the thriumphant.
+        + Extra-humiliation for the losers.
+
+- ...And about 20833 other minor improvements, which make the game worth 
+     dying for.
+

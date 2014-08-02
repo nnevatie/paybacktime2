@@ -1,0 +1,290 @@
+
+                PT2 Unregistered Version Data Contents
+                           by J. Patrikainen
+
+
+  1.1 Foreword
+
+  2.0 Weapons.dat
+	2.1 Sidearms
+	2.2 Shotguns
+	2.3 Submachineguns
+	2.4 Assault rifles
+	2.5 Gyro weapons & Launchers
+	2.6 Energy weapons
+	2.7 Melee weapons
+	2.8 Grenades & Explosives
+
+  3.0 Items.dat
+	3.1 Flares
+	3.2 Medikits
+	3.3 Armors
+
+----------------------------------------------------------------------------
+
+	1.1 Foreword
+
+	This file was created to explain some of the ideas I used in PT2
+weapon.dat file. This is a production of my bizarre imagination mixed with
+some ideas from movies, RPGs and the old PT versions. Some players wanted
+pictures of the weapons to the PT2. I hope that this file gives you the
+information you need about the data included.
+
+
+	2.0 Weapons.dat 
+ 
+	The weapons in this set are quite powerful because we wanted to add
+some futuristic atmosphere to the game. If you aren't satisfied with
+the weapons, you'll have to register your copy of Payback Time 2 and use
+the editors to create your own gamesets. In this way you can achieve
+the atmosphere you want.
+ 
+	"Wanna have some guns buddy? Just name your goodies.
+Eh, phaserstuff? ...No problem here. If you just have the dough,
+you can have anything you want."
+				                        -Fixer Laude
+ 
+	2.1 Sidearms 
+ 
+- .44 Renegade 
+Newest version of the good old Magnum revolver for people who like 
+dirty tricks and Dirty Harry. Inaccurate, slow and clumsy but sooo
+powerful. Used by troops who are short of money and supplies. Notice the short
+range and the small clip.
+  
+- Street Master 
+A futuristic 9mm heavy pistol designed for Gyro Fighter pilots. The massive
+overproduction caused these weapons to drift to street markets. It was soon
+given a name Street Master for this reason. Nowadays mostly used by gangs and
+mercenary troops. Notice the short effective range and the large clip.
+ 
+	2.2 Shotguns 
+ 
+- Randal Shotgun 
+A standard police shotgun that can be found almost anywhere. The armor
+penetrating shells make this weapon highly effective in good hands.
+Notice that this weapon is accurate only at short range.
+  
+- Randal CAWFISH 
+A full automatic shotgun with a nickname "The cop killer". The government
+forces have used this weapon in assaults and assassinations. Armor piercing
+shells make this weapon the ultimate house cleaner. Notice that this
+weapon is accurate only at short range.
+   
+	2.3 Submachine guns 
+ 
+- Synapse SMG 
+A light smg designed as assault weapon for use of special forces. Made
+famous by the legendary Fixer Laude who used one synapse at each hand.
+Laude vanished somewhere in the east while fighting in the Com wars.
+It's rumored that Laude is still alive fighting with some underground
+movement against companies. Highly inaccurate in inexperienced hands but
+massive firepower covers the minor problem. Notice the extra large clip.
+ 
+- Neon Stormer SMG
+Designed by Dr. Armani who creates fashion weapons & armors for bodyguards
+and rich kids. Neon Inc. produces Stormer SMG with various color options.
+"Be Neon, Buy Neon". Notice the large clip and the good accuracy (for an SMG).
+ 
+	2.4 Assault rifles 
+ 
+- Randal AR-90 
+Randal syndicate has made this weapon their number one seller in no time.
+It is most widely used weapon in the whole world. Only the price makes it
+hard to get for a green team. AR-90 is known for its loose firing mechanism.
+They can bury you five feet under with it for years, and when somebody finds
+your bones (or whatever is left of you), the gun should be fully
+operative (contradictory to your condition).
+     
+- Renegade HAR 
+A heavy assault rifle used by The Company Mercenary Troops. Included with advanced
+targeting systems and a full clip. Notice the impressive firepower and
+the small clip.
+ 
+	2.5 Gyro weapons & Launchers
+ 
+- Randal Gyro rifle 
+The gyro weapons are pretty new technology at the moment. They make loud
+sounds and the shots bounce here and there before exploding. However, many
+organized troops do use these gadgets. It's a good idea
+(actually, a very good idea) to be in open area when shooting. Notice
+the small clip and the poor accuracy.
+ 
+- Gyro-A Cannon 
+The Gyro Auto Cannon is an awesome weapon in veteran hands. Its auto fire
+capabilities spit bouncing gyro ammo towards the target seeding deadly
+fire fields over a wide area. It was designed to spread terror in the battle
+fields (I think the designers did a very nice job here). Again it's a good
+idea to be in open when shooting, since the weapon is quite inaccurate.
+Notice the small clip.
+
+- Missile Launcher 
+A widely used standard missile launcher from The Randal syndicate. Medium
+explosion radius. Medium range. Medium damage. Lots of dead people.
+Also very effective against medium armored vehicles and buildings.
+It is not recommended to hand these devices into any inexperienced hands.
+
+- Z-War LRATML 
+A Long Range Antitank Missile Launcher with a next generation targeting
+guidance systems and smart missiles. Medium explosion radius, effective
+against armored vehicles and heavy buildings. Slow but easy to use and hard
+to find. Famous for the funny beep sounds of the seeking smart missiles.
+(or atleast funny, when heared furthering away.) One smart missile is
+supplied with the launcher.
+ 
+	2.6 Energy weapons 
+ 
+- Omen Pulse Rifle 
+Omen is the leading pulse weapon brand. The pulse rifle is their first field
+tested pulse weapon. It sends rapidly short frequenced narrow fixed light
+beams which cause damage to the tissue and armor.  Notice the short clip.
+
+- Omen Pulse Sniper
+Omen's sniper rifle has the most advanced targeting systems ever built in the
+business of death. After its release to the markets it soon pushed all the
+traditional sniper rifles out of the markets. It sends rapidly short
+frequenced narrow fixed light beams which cause damage to the tissue and armor. Notice the
+Great guarding fire possibilities at a long range.
+ 
+- Omen Heavy Blast 
+Heavies of the Omen weapons. It was created for tank busting because it's
+too slow to use for normal combat situations. Sends a huge blast of
+light beams which rapidly change their frequency and cause a massive amount
+of damage to the tissue and armor. Notice that with the maximum burst power
+you can only shoot twice before the clip is empty.
+ 
+- Phaser Cannon 
+Choice of a true warrior. This is maybe the most bizarre weapon in the set
+and also the most experimental. Nobody really seems to know how it actually
+works but who cares. As long as it makes some serious damage, everybody is
+happy... (well, maybe not the target). It costs 50 000 credits and you
+probably won't hit a thing but it should make some really big holes and
+disintegrate the possible targets...  Well atleast it's supposed to.
+Allegedly.
+ 
+	2.7 Melee weapons 
+ 
+- Butcher Knife 
+A battle knife manufactured of the latest steel plastics.
+A lifetime guarantee.
+
+- Omen Katana 
+One of the Omen melee combat applications made on the forever popular samurai
+theme. Prism near the guard sends short frequenced narrow fixed light
+beams that boost up the blade's temperature when the katana hits something.
+This causes damage to the tissue and armor.
+ 
+- Fingertip Lasers 
+Small glove with newest hightech in it. With this melee weapon you won't
+need any education on martial arts. You just can't miss. Notice that
+this weapon is very fast to use.  
+ 
+- Combat Trident 
+The Legendary Combat Trident with new more powerful features.
+Hit and you most certainly don't have to run. This is all you need.
+A promise.
+ 
+	2.8 Grenades & Explosives
+ 
+- Fragment Grenade 
+A basic antipersonnel grenade used anywhere in the world.  When exploding
+it scatters lethal shrapnel over a medium area. Notice the low price.
+ 
+- Pulse Grenade 
+An Omen application on explosive markets. Sends a burst of short frequenced
+fixed light waves that rapidly change the temperature in a small area.
+This causes some serious heat damage to the targets.
+ 
+- Slam & Forget Trap 
+Invented for door trapping. You just trap it between the door and it will
+explode if someone tries to open the door.  Notice that you can also use this
+explosive as a normal grenade if you want to.
+ 
+- K-8 Explosive  
+The legendary "Kasis" in a new package. More range. More Power. Ehrm...
+More price. 
+ 
+	3.0 Items.dat 
+ 
+	We have only included some basic items for you in this set. If you
+want more of them you'll have to register your copy of PaybackTime 2.
+ 
+	3.1 Flares 
+ 
+- Small Flare 
+If you know where your target is but it's rather hard to hit him due to
+the darkness then use this one.
+ 
+- Medium Flare 
+If you want to find someone without too much light use this one. 
+ 
+- Large Flare 
+If you have to play hide and seek then use this one.  
+
+ 
+	3.2 Medikits 
+ 
+- First Aid Set 
+Pharmacoms First Aid Set for emergency. Everyone should have one of these
+nowadays. 
+ 
+- First Aid Pack 
+Pharmacon has now created a new First Aid Pack for men in busines. 
+ 
+- Field Medikit 
+Field doctors medikit from Pharmacom.
+ 
+- Improved Medikit 
+Hospital class doctor medikit from Pharmacom. Only for professional use.
+Or atleast so it says on the package.
+	
+	3.3 Armors 
+ 
+- CA-1 Kevlar 
+Full body kevlar padding.  Clumsy in real action and doesn't give too much
+of a protection. Still in wide use due to it's budget price.
+ 
+- CA-3 Kinetic 
+Very popular armor among mercenaries due to the low price and the
+easiness to maintain.
+ 
+- CA-5 Kinetic 
+This armor is constructed of two layers of thick kinetic plating. It's
+pretty heavy but it should stop most hits caused by handguns.
+ 
+- CA-8 Kinetic B 
+Kinetic B was created in order to get better and lighter armors. Here is
+an armor where kinetic B was used. This armor was never a great success
+due to its hard to maintaining problems.
+ 
+- Neon Urban Armor 
+Dr. Armani's first creations in the business. Street gangs and citizens who
+wanted some protection quietly, found this cheap and light armor.
+Neon armors are supplied with custom colors.
+ 
+- Neon Hitman Suit 
+Dr. Armanis classic creation in the armor business. It's a fine cut Armani
+suit with the classical style and elegance. Under the fabric layers are the
+revolutionary light and thin armor fabric called The Belief. For the bold and
+the tough.
+ 
+- Z-War Camo Armor 
+This is a heavy military armor powered by one Omen LMS unit. This armor is
+fully sealed and it should stop anything but the most heaviest shells.
+As a negative fact, this armor is quite clumsy to use.
+ 
+- Z-War City Armor 
+This is very-heavy military armor powered by two Omen LMS units. It
+should stop almost anything they can fire/throw at you. This armor is very
+clumsy to use. 
+ 
+- Marine Armor 
+Marine corps service armor. Combined kevlar and kinetic plates.
+
+
+
+
+
+
+
+
