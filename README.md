@@ -5,8 +5,8 @@ Paybacktime 2 is a multiplayer X-COM-esque turn based tactics game for PC DOS.
 
 Originally developed during 1994-1997 by Niko Nevatie and Kari Luojus - later released as public domain with source code.
 
-How to Play
------------
+Installation
+------------
 
 The game is distributed here with easy integration to [DOSBox](http://www.dosbox.com/):
 
@@ -40,3 +40,18 @@ Fun Facts
 * Most of the critique received targeted the cryptic UI and hard-to-meet memory requirements.
 * The game was extensively tested by a number of friends. Bugs found were mercilessly abused.
 
+How to Play
+-----------
+
+General
+
+* Start by creating a unit (team) for each player in the Headquarters.
+* Enter the game, configure battle options, select a map, player options and finally your units/warriors.
+* The battle will be fought until there is only one side standing. The warriors will gain experience as they do combat and the experience may be spent in the Headquarters in form of training.
+* For more detailed information about the game mechanics, read through the documents stored in the docs directory.
+
+User Interface
+
+* The game is fully keyboard-driven. Arrow keys, Esc, Enter and Space keys are used for most menu and in-game navigation.
+* In-game, you can use the visible shortcut menu to issue commands as well - use PageUp/PageDown and Backspace to navigate in the menu.
+* F1 can be used to enter a help screen in-game and in the map editor.
