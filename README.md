@@ -9,4 +9,4 @@ The game is distributed here with easy integration to [DOSBox](http://www.dosbox
 
 1. Download the repository contents as ZIP.
 2. Copy DOSBox binaries under the dosbox directory.
-3. Run paybacktime2.exe from the root directory.
+3. Run `paybacktime2.exe` from the root directory.
