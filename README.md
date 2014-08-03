@@ -1,7 +1,7 @@
 Paybacktime 2
 =============
 
-Paybacktime 2 is a multiplayer X-COM-esque turn based tactics game for PC DOS.
+Paybacktime 2 is a multiplayer X-COM-esque turn based tactics game for MS-DOS.
 
 Originally developed during 1994-1997 by Niko Nevatie and Kari Luojus - later released as public domain with source code.
 
