@@ -1,0 +1,208 @@
+body {
+    font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    background: #000;
+    color: #333;
+    font-size: 12px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    background: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 8em;
+    background: url(../images/bg.jpg)
+}
+
+.spacer {
+    height: 2em;
+}
+
+.button-box {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: right;
+}
+.button {
+
+    background: #65a9d7;
+    padding: 5px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    text-decoration: none;
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+.button:active {
+    text-decoration: none;
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+.gradient-blue {
+    border-top: 1px solid #96d1f8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+}
+
+.gradient-green {
+    border-top: 1px solid #96f8d1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e9d77), to(#65d7a9));
+    background: -moz-linear-gradient(top, #3e9d77, #65d7a9);
+}
+
+.logo {
+    display: block;
+    width: 382px;
+    height: 40px;
+    background: url(../images/pt2_logo2.png);
+}
+
+.panel {
+    color: #222;
+    text-shadow: 0px 1px 0px #ddd;
+    background-color:#ffffff;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.panel p {
+    padding: 8px 8px;
+    color: #000;
+}
+.panel h1, .panel h2 {
+    font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    text-align: left;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+}
+
+.panel h2 {
+    color: #224;
+}
+
+.info {
+    background-image: -moz-linear-gradient(top, #c0c0c8, #dbdae0);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#c0c0c8), to(#dbdae0));
+    background-image: -o-linear-gradient(top, #c0c0c8, #dbdae0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0c0c8', endColorstr='#dbdae0');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0c0c8', endColorstr='#dbdae0')";
+    background-image: linear-gradient(top, #c0c0c8, #dbdae0);
+    border: 1px solid #ccc;
+}
+
+.info a
+{
+    color: #226;
+}
+
+.info ul
+{
+    list-style-type: square;
+}
+
+.gallery {
+    color: #eee;
+    text-shadow: 0px 1px 0px #448;
+    background-image: -moz-linear-gradient(top, #142a3d, #000000);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#142a3d), to(#000000));
+    background-image: -o-linear-gradient(top, #142a3d, #000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#142a3d', endColorstr='#000000');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#142a3d', endColorstr='#000000')";
+    background-image: linear-gradient(top, #142a3d, #000000);
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.gallery-item
+{
+    display: block;
+    float: left;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+.gallery-item img
+{
+    border: 1px solid #446;
+}
+
+.gallery-item div
+{
+    color: #ccc;
+    text-shadow: 0px 1px 0px #224;
+    padding: 4px 2px;
+}
+
+.footer {
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #000;
+    border-top: 1px solid #C0C0C8;
+    color: #666;
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+    min-width: 960px;
+    clear: both;
+    display: inline;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+    text-align: left;
+}
