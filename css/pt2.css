@@ -88,6 +88,12 @@ p {
     background: #1b435e;
 }
 
+.gradient-red {
+    border-top: 1px solid #f89696;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9d3e3e), to(#d76565));
+    background: -moz-linear-gradient(top, #9d3e3e, #d76565);
+}
+
 .gradient-blue {
     border-top: 1px solid #96d1f8;
     background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
