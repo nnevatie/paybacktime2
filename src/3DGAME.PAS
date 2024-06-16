@@ -1,10 +1,6 @@
 {$F+}
-{$M 50000,0,147000}
+{$M 60000,0,200000}
 uses overlay,crt,sbunit,varunit,pbtunit,extunit,gamemisc;
-{$O pbtunit}
-{$O extunit}
-{$O sbunit}
-{$O gamemisc}
 
 label finalend,finalend1;
 
